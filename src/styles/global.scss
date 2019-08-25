@@ -1,0 +1,112 @@
+#___gatsby,
+#___gatsby > div {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #fff;
+    .main-wrapper {
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+}
+
+#intro-section {
+    position: relative;
+    .site-header{
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        left: 50%;
+    }
+    & > .btn {
+        position: absolute;
+        bottom:25px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.site-header {
+    h1,
+    h2 {
+        font-size: 56px;
+        line-height: 1;
+        span {
+            line-height: 1;
+            font-size: 18px;
+            color: var(--mb-black);
+            display: block;
+            text-transform: uppercase;
+        }
+    }
+    p {
+        font-size: 18px;
+        line-height: 1.3;
+        a {
+            text-decoration: underline;
+        }
+    }
+}
+
+.social-links,
+.project-stack {
+    li {
+        display: inline-block;
+        & + li {
+            margin-left: 15px;
+        }
+    }
+}
+
+.projects-wrapper {
+    .project {
+        .project-name {
+            margin: 0;
+            font-size: 7vw;
+            font-weight: bold;
+            cursor: pointer;
+            width: fit-content;
+            i {
+                font-style: normal;
+                margin-right: 3px;
+            }
+            span {
+                padding: 6px;
+                background-color: #f7f7f7;
+                font-size: 15px;
+                line-height: 1;
+                vertical-align: middle;
+                border-radius: 4px;
+                margin-left: 9px;
+                font-weight: 400;
+            }
+        }
+        .project-content {
+            width: 100%;
+            transition: all .5s ease-in-out;
+            height: 0;
+            overflow: hidden;
+            transform: scaleY(0);
+            &.show {
+                height: fit-content;
+                transform: scaleY(1);
+            }
+            .project-screenshot {
+                margin: 0;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                img {
+                    width: 100%;
+                    border-radius: 5px;
+                    box-shadow: 0px 0px 5px 0px #ccc;
+                }
+            }
+            
+        }
+        & + .project {
+            margin-top: 51px;
+        }
+    }
+}

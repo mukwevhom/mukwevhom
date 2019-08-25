@@ -5,5 +5,12 @@
  */
 
 module.exports = {
-  /* Your site config here */
+    siteMetadata: {
+        title: `Murendeni Mukwevho`,
+        siteUrl: `https://www.mukwevhom.xyz`,
+        description: `Welcome to official website of Mukwevho Murendeni`,
+        author: `Mukwevho Murendeni`,
+        test:`test`
+    },
+    plugins: [`gatsby-plugin-sass`],
 }
