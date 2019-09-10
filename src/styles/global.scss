@@ -4,6 +4,10 @@
     height: 100%;
 }
 
+* {
+    outline: none !important;
+}
+
 body {
     background-color: #fff;
     .main-wrapper {
