@@ -17,7 +17,7 @@ export default (props) => {
         <Helmet
                 meta={[
                     { name: 'description', content: 'Developer based in South Africa' },
-                    { name: 'google-site-verification', content: '2KeIu7BSENFB4hn_8brZQgy-m6iaXmaIBHGNrTJ5E90' },
+                    { name: 'google-site-verification', content: 'ojFr1wa1XQWEoRJft3h_XuYa6mGRSi1n6hML9up4xuc' },
                     { name: 'keywords', content: 'Mukwevho Murendeni, Mukwevho, Murendeni, Fileboxer, Music Brackts, Web Developer, Inbound, MukwevhoM, iammurendeni'},
                     { name:"p:domain_verify", content:"69ec3689df39c65b2c238394e38470d8"}
                 ]}
