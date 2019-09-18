@@ -12,5 +12,18 @@ module.exports = {
         author: `Mukwevho Murendeni`,
         test:`test`
     },
-    plugins: [`gatsby-plugin-sass`],
+    plugins: [
+        {
+            resolve: `gatsby-plugin-gtag`,
+            options: {
+                trackingId: "UA-92610979-1",
+                // Puts tracking script in the head instead of the body
+                head: false,
+                // enable ip anonymization
+                anonymize: true,
+            },
+        },
+        `gatsby-plugin-sass`,
+        `gatsby-plugin-sitemap`
+    ],
 }
