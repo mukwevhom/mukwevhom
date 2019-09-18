@@ -14,13 +14,18 @@ export default (props) => {
         }
     `);
     return (
-        <Helmet>
+        <Helmet
+                meta={[
+                    { name: 'description', content: 'Developer based in South Africa' },
+                    { name: 'google-site-verification', content: '2KeIu7BSENFB4hn_8brZQgy-m6iaXmaIBHGNrTJ5E90' },
+                    { name: 'keywords', content: 'Mukwevho Murendeni, Mukwevho, Murendeni, Fileboxer, Music Brackts, Web Developer, Inbound, MukwevhoM, iammurendeni'},
+                    { name:"p:domain_verify", content:"69ec3689df39c65b2c238394e38470d8"}
+                ]}
+            >
             <html lang="en" />
             <meta charSet="utf-8" />
+            
             <title>{site.siteMetadata.title}</title>
-            <meta name="keywords" content="Mukwevho Murendeni, Mukwevho, Murendeni, Fileboxer, Music Brackts, Web Developer, Inbound, MukwevhoM, iammurendeni" />
-            <meta name="description" content="Welcome to Official Website of Mukwevho Murendeni" />
-            <meta name="p:domain_verify" content="69ec3689df39c65b2c238394e38470d8" />
             <link rel="canonical" href="http://mukwevhom.com" />
             <script src="https://unpkg.com/feather-icons"></script>
         </Helmet>
