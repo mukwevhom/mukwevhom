@@ -76,6 +76,16 @@ export default () => {
                                 </div>
                             </a>
                         </div>
+                        <div className="project">
+                            <h3 className="project-name" onClick={handleProjectClick}><i>6.</i>Inspire Academy</h3>
+                            <a className="project-content row" href="//inspireacademy.co.za" target="_h">
+                                <figure className="project-screenshot col-md-7">
+                                    <img src="https://api.microlink.io?url=http%3A%2F%2Finspireacademy.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Inspire Academy"/>
+                                </figure>
+                                <div className="project-info col-md-5">
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
