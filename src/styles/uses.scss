@@ -1,0 +1,41 @@
+#uses-intro-section {
+    background-color: #8080803b;
+    .section-content {
+        h1 {
+            font-size: 27px;
+            margin: 0;
+            font-weight: normal;
+            line-height: 1.5;
+            .home {
+                font-weight: bold;
+                color: inherit;
+                text-decoration: underline;
+                font-size: 42px;
+            }
+        }
+    }
+}
+
+#uses-section {
+    .section-content {
+        .category {
+            .category-title {
+                font-weight: bold;
+                font-size: 36px;
+                margin: 0;
+            }
+            .category-uses {
+                list-style: none;
+                margin: 0;
+                li {
+                    line-height: 1.5;
+                    span {
+                        margin-left: 2px;
+                        font-size: 12px;
+                        vertical-align: super;
+                    }
+                }
+            }
+        }
+    }
+}
