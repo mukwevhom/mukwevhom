@@ -11,7 +11,7 @@ export default () => {
             <section className="section-wrapper py-5" id="uses-intro-section">
                 <div className="section-content">
                     <div class="container">
-                        <h1><Link to={"/"} className="home">Murendeni Mukwevho</Link> is a developer based in Johannesburg, South Africa. Currently working at <a href="https://inbound.co.za">Inbound</a>|<a href="https://oviond.com">Oviond</a></h1>
+                        <h1><Link to={"/"} className="home">Murendeni Mukwevho</Link> is a developer based in Johannesburg, South Africa. Currently working at <a href="https://oviond.com">Oviond</a></h1>
                         <p className="mt-4">Below are few tools and services I use everyday</p>
                     </div>
                 </div>
@@ -22,6 +22,7 @@ export default () => {
                         <h4 className="category-title">Hardware</h4>
                         <ul className="category-uses mt-3">
                             <li>Macbook Pro, Late 2016, 13", i5<span>laptop</span></li>
+                            <li>Dell S2240Lc<span>monitor</span></li>
                             <li>Apple Magic Keyboard<span>keyboard</span></li>
                             <li>Apple Magic Mouse 2<span>mouse</span></li>
                             <li>Motorola Moto G5s<span>phone</span></li>

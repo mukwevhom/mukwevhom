@@ -37,7 +37,7 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>2.</i>The Shave Union<span>with Inbound</span></h3>
+                            <h3 className="project-name" onClick={handleProjectClick}><i>2.</i>The Shave Union<span>while with Inbound</span></h3>
                             <a className="project-content row" href="//shaveunion.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=https%3A%2F%2Fshaveunion.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="The Shave Union"/>
@@ -47,7 +47,7 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>3.</i>Oviond<span>with Inbound</span></h3>
+                            <h3 className="project-name" onClick={handleProjectClick}><i>3.</i>Oviond</h3>
                             <a className="project-content row" href="//oviond.com" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=https%3A%2F%2Foviond.com&screenshot=true&embed=screenshot.url" loading="lazy" alt="Oviond"/>
