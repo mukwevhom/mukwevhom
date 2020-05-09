@@ -67,7 +67,17 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>5.</i>Zuki</h3>
+                            <h3 className="project-name" onClick={handleProjectClick}><i>5.</i>t-Drive</h3>
+                            <a className="project-content row" href="//t-drive.co.za" target="_h">
+                                <figure className="project-screenshot col-md-7">
+                                    <img src="https://api.microlink.io?url=http%3A%2F%2Ft-drive.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="t-Drive"/>
+                                </figure>
+                                <div className="project-info col-md-5">
+                                </div>
+                            </a>
+                        </div>
+                        <div className="project">
+                            <h3 className="project-name" onClick={handleProjectClick}><i>6.</i>Zuki</h3>
                             <a className="project-content row" href="//zuki.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=http%3A%2F%2Fzuki.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Zuki"/>
@@ -77,7 +87,7 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>6.</i>Inspire Academy</h3>
+                            <h3 className="project-name" onClick={handleProjectClick}><i>7.</i>Inspire Academy</h3>
                             <a className="project-content row" href="//inspireacademy.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=http%3A%2F%2Finspireacademy.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Inspire Academy"/>
