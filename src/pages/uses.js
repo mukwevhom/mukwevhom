@@ -11,7 +11,7 @@ export default () => {
             <section className="section-wrapper py-5" id="uses-intro-section">
                 <div className="section-content">
                     <div class="container">
-                        <h1><Link to={"/"} className="home">Murendeni Mukwevho</Link> is a developer based in Johannesburg, South Africa. Currently working at <a href="https://oviond.com">Oviond</a></h1>
+                        <h1><Link to={"/"} className="home">Murendeni Mukwevho</Link> is a developer based in Johannesburg, South Africa. Currently working at <a href="//www.dotmodus.com/">DotModus</a></h1>
                         <p className="mt-4">Below are few tools and services I use everyday</p>
                     </div>
                 </div>

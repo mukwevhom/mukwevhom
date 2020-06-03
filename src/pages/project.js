@@ -47,10 +47,10 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>3.</i>Oviond</h3>
-                            <a className="project-content row" href="//oviond.com" target="_h">
+                            <h3 className="project-name" onClick={handleProjectClick}><i>3.</i>OneDayOnly Refined</h3>
+                            <a className="project-content row" href="//odo-refined.herokuapp.com/" target="_h">
                                 <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=https%3A%2F%2Foviond.com&screenshot=true&embed=screenshot.url" loading="lazy" alt="Oviond"/>
+                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fodo-refined.herokuapp.com/&screenshot=true&embed=screenshot.url" loading="lazy" alt="OneDayOnly Refined"/>
                                 </figure>
                                 <div className="project-info col-md-5">
                                 </div>
