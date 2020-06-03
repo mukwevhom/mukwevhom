@@ -24,7 +24,7 @@ export default (props) => {
             >
             <html lang="en" />
             <meta charSet="utf-8" />
-            
+            <meta name="author" content="Mukwevho Murendeni" />
             <meta name='description' content='Developer based in South Africa' />
             <meta name='google-site-verification' content='ojFr1wa1XQWEoRJft3h_XuYa6mGRSi1n6hML9up4xuc' />
             <meta name='keywords' content='Mukwevho Murendeni, Mukwevho, Murendeni, Fileboxer, Music Brackts, Web Developer, Inbound, MukwevhoM, iammurendeni' />
