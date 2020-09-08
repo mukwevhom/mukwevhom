@@ -13,21 +13,21 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "feather-icons": "^4.24.0",
-    "gatsby": "^2.13.70",
-    "gatsby-plugin-gtag": "^1.0.11",
-    "gatsby-plugin-robots-txt": "^1.5.0",
-    "gatsby-plugin-sass": "^2.1.12",
-    "gatsby-plugin-sitemap": "^2.2.12",
-    "jquery": "^3.4.1",
-    "node-sass": "^4.12.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "bootstrap": "^4.5.2",
+    "feather-icons": "^4.28.0",
+    "gatsby": "^2.24.55",
+    "gatsby-plugin-gtag": "^1.0.13",
+    "gatsby-plugin-robots-txt": "^1.5.1",
+    "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-plugin-sitemap": "^2.4.12",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
