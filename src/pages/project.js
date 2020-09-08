@@ -37,16 +37,6 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>2.</i>The Shave Union<span>while with Inbound</span></h3>
-                            <a className="project-content row" href="//shaveunion.co.za" target="_h">
-                                <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fshaveunion.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="The Shave Union"/>
-                                </figure>
-                                <div className="project-info col-md-5">
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project">
                             <h3 className="project-name" onClick={handleProjectClick}><i>3.</i>OneDayOnly Refined</h3>
                             <a className="project-content row" href="//odo-refined.herokuapp.com/" target="_h">
                                 <figure className="project-screenshot col-md-7">
@@ -77,10 +67,10 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>6.</i>Zuki</h3>
-                            <a className="project-content row" href="//zuki.co.za" target="_h">
+                            <h3 className="project-name" onClick={handleProjectClick}><i>6.</i>CreditWorth</h3>
+                            <a className="project-content row" href="//crediworth.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=http%3A%2F%2Fzuki.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Zuki"/>
+                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fcreditworth.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Zuki"/>
                                 </figure>
                                 <div className="project-info col-md-5">
                                 </div>
