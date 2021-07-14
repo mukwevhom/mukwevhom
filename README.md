@@ -13,7 +13,7 @@ JS, React, VueJS, CSS, Styled Components, Python
 - [CreditWorth](https://creditworth.co.za/)
 
 ## Connect with me
-***
+
 - [LinkedIn](https://www.linkedin.com/in/mukwevhom/)
 - [Twitter](https://twitter.com/IAmMurendeni)
 - [GitHub](https://github.com/mukwevhom)
