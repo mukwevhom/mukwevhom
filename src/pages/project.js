@@ -47,7 +47,17 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>3.</i>Vhukhudo</h3>
+                            <h3 className="project-name" onClick={handleProjectClick}><i>3.</i>Solar Power Technologies</h3>
+                            <a className="project-content row" href="//solarpowertech.co.za/" target="_h">
+                                <figure className="project-screenshot col-md-7">
+                                    <img src="https://api.microlink.io?url=http%3A%2F%2Fsolarpowertech.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Solar Power Technologies"/>
+                                </figure>
+                                <div className="project-info col-md-5">
+                                </div>
+                            </a>
+                        </div>
+                        <div className="project">
+                            <h3 className="project-name" onClick={handleProjectClick}><i>4.</i>Vhukhudo</h3>
                             <a className="project-content row" href="//vhukhudo.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=http%3A%2F%2Fvhukhudo.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Vhukhudo"/>
@@ -57,7 +67,7 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>4.</i>t-Drive</h3>
+                            <h3 className="project-name" onClick={handleProjectClick}><i>5.</i>t-Drive</h3>
                             <a className="project-content row" href="//t-drive.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=http%3A%2F%2Ft-drive.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="t-Drive"/>
@@ -67,7 +77,7 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>5.</i>CreditWorth</h3>
+                            <h3 className="project-name" onClick={handleProjectClick}><i>6.</i>CreditWorth</h3>
                             <a className="project-content row" href="//creditworth.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=https%3A%2F%2Fcreditworth.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Zuki"/>
@@ -77,7 +87,7 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>6.</i>Inspire Academy</h3>
+                            <h3 className="project-name" onClick={handleProjectClick}><i>7.</i>Inspire Academy</h3>
                             <a className="project-content row" href="//inspireacademy.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=http%3A%2F%2Finspireacademy.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Inspire Academy"/>
@@ -87,7 +97,7 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>7.</i>SeasonKay</h3>
+                            <h3 className="project-name" onClick={handleProjectClick}><i>8.</i>SeasonKay</h3>
                             <a className="project-content row" href="//seasonkay.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=https%3A%2F%2Fseasonkay.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="SeasonKay"/>
