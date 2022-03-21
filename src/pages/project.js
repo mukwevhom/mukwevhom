@@ -48,9 +48,9 @@ export default () => {
                         </div>
                         <div className="project">
                             <h3 className="project-name" onClick={handleProjectClick}><i>3.</i>Solar Power Technologies</h3>
-                            <a className="project-content row" href="//solarpowertech.co.za/" target="_h">
+                            <a className="project-content row" href="//solarpowertech.myshopify.com/" target="_h">
                                 <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=http%3A%2F%2Fsolarpowertech.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Solar Power Technologies"/>
+                                    <img src="https://api.microlink.io?url=http%3A%2F%2Fsolarpowertech.myshopify.com&screenshot=true&embed=screenshot.url" loading="lazy" alt="Solar Power Technologies"/>
                                 </figure>
                                 <div className="project-info col-md-5">
                                 </div>
@@ -91,16 +91,6 @@ export default () => {
                             <a className="project-content row" href="//inspireacademy.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=http%3A%2F%2Finspireacademy.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Inspire Academy"/>
-                                </figure>
-                                <div className="project-info col-md-5">
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>8.</i>SeasonKay</h3>
-                            <a className="project-content row" href="//seasonkay.co.za" target="_h">
-                                <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fseasonkay.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="SeasonKay"/>
                                 </figure>
                                 <div className="project-info col-md-5">
                                 </div>
