@@ -21,11 +21,11 @@ const Uses = () => {
                     <div className="category">
                         <h4 className="category-title">Hardware</h4>
                         <ul className="category-uses mt-3">
-                            <li>Macbook Pro, Late 2016, 13", i5<span>laptop</span></li>
+                            <li>Lenovo IdeaPad 5<span>laptop</span></li>
                             <li>Dell S2240Lc<span>monitor</span></li>
-                            <li>Apple Magic Keyboard<span>keyboard</span></li>
-                            <li>Apple Magic Mouse 2<span>mouse</span></li>
-                            <li>Motorola Moto G5s<span>phone</span></li>
+                            <li>Logitech K780<span>keyboard</span></li>
+                            <li>Logitech M720<span>mouse</span></li>
+                            <li>Samsung S21 FE<span>phone</span></li>
                             <li>Sony WH-CH500<span>headset</span></li>
                         </ul>
                     </div>
@@ -35,15 +35,15 @@ const Uses = () => {
                             <li>VS Code<span>editor</span></li>
                             <li>Google Chrome<span>browser</span></li>
                             <li>Trello<span>task management</span></li>
-                            <li>iTerm2 with Oh My zsh<span>terminal</span></li>
-                            <li>Postman<span>api</span></li>
+                            <li>Terminal<span>terminal</span></li>
+                            <li>Insomnia<span>api</span></li>
                         </ul>
                     </div>
                     <div className="category mt-5">
                         <h4 className="category-title">Extras</h4>
                         <ul className="category-uses mt-3">
-                            <li>Spotify<span>music</span></li>
-                            <li>DSTV Now & Showmax<span>tv shows</span></li>
+                            <li>Youtube Music<span>music</span></li>
+                            <li>DSTV &amp; Showmax<span>tv shows</span></li>
                             <li>Google Keeps<span>notes</span></li>
                             <li>Google Podcast<span>podcast</span></li>
                         </ul>
