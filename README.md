@@ -1,6 +1,6 @@
 # Ndaa, I am [Murendeni Mukwevho](https://murendeni.dev)
 
-I build websites and web applications. I currently work at [DotModus](https://dotmodus.com)
+I build websites and web applications. I'm currently breaking the bias at [GirlCode](https://girlcode.co.za)
 
 ## Languages/Tools
 JS, React, VueJS, CSS, Styled Components, Python
