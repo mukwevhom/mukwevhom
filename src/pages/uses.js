@@ -1,10 +1,10 @@
 import React from "react";
 import HeadManager from "../components/head-manager";
-import { Link } from "gatsby";
+import { Link, useScrollRestoration } from "gatsby";
 
 import '../styles/uses.scss';
 
-export default () => {
+const Uses = () => {
     return (
         <main className="main-wrapper w-100 h-100">
             <HeadManager location="/uses" />
@@ -53,3 +53,5 @@ export default () => {
         </main>
     )
 }
+
+export default Uses;

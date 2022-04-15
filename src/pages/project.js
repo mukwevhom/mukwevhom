@@ -1,7 +1,7 @@
 import React from "react";
 import $ from 'jquery';
 
-export default () => {
+const Project = () => {
     function handleProjectClick(e) {
         let currProject = e.currentTarget;
 
@@ -102,3 +102,5 @@ export default () => {
         </section>
     )
 }
+
+export default Project
