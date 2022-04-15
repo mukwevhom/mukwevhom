@@ -6,7 +6,7 @@ import Project from './project';
 
 import '../styles/global.scss';
 
-export default () => {
+const Index = () => {
     function handleViewProjectClick(e) {
         e.preventDefault();
 
@@ -28,3 +28,5 @@ export default () => {
         </div>
     )
 }
+
+export default Index;
