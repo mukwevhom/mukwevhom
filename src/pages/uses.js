@@ -1,6 +1,6 @@
 import React from "react";
 import HeadManager from "../components/head-manager";
-import { Link, useScrollRestoration } from "gatsby";
+import { Link } from "gatsby";
 
 import '../styles/uses.scss';
 
