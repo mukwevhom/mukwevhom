@@ -17,7 +17,7 @@ const Index = () => {
         <div className="main-wrapper w-100 h-100">
             <HeadManager location="/" />
             <section className="section-wrapper w-100 h-100" id="intro-section">
-                <div className="site-header col-lg-4 col-sm-6 col-xs-12 text-center">
+                <div className="site-header col-lg-4 col-sm-6 col-10 text-center">
                     <h1 className="m-0 black-text">Ndaa!!! <span role="img">👋</span></h1>
                     <p className="m-0 my-5">I'm Murendeni Mukwevho. I build websites and web applications. I'm currently breaking the bias at <a href="//girlcode.co.za/" target="_h">GirlCode</a></p>
                     <SocialLinks />
