@@ -11,7 +11,7 @@ const Uses = () => {
             <section className="section-wrapper py-5" id="uses-intro-section">
                 <div className="section-content">
                     <div class="container">
-                        <h1><Link to={"/"} className="home">Murendeni Mukwevho</Link> is a developer based in Johannesburg, South Africa. Currently working at <a href="//www.dotmodus.com/">DotModus</a></h1>
+                        <h1><Link to={"/"} className="home">Murendeni Mukwevho</Link> is a developer based in Johannesburg, South Africa. Currently breaking the bias at <a href="//www.girlcode.co.za/">GirlCode</a></h1>
                         <p className="mt-4">Below are few tools and services I use everyday</p>
                     </div>
                 </div>
