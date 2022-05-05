@@ -87,10 +87,10 @@ export default () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>7.</i>BIG Finance</h3>
+                            <h3 className="project-name" onClick={handleProjectClick}><i>7.</i>B.I.G Finance</h3>
                             <a className="project-content row" href="//bigfinance.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=http%3A%2F%2Fbigfinance.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Inspire Academy"/>
+                                    <img src="https://api.microlink.io?url=http%3A%2F%2Fbigfinance.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="B.I.G Finance"/>
                                 </figure>
                                 <div className="project-info col-md-5">
                                 </div>
