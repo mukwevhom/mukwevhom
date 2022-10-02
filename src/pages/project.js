@@ -27,7 +27,7 @@ const Project = () => {
                 <div className="section-content mt-5">
                     <div className="projects-wrapper">
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>1.</i>Musicbrackts</h3>
+                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>1.</i>Musicbrackts</h3>
                             <a className="project-content row" href="//musicbrackts.com" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=https%3A%2F%2Fmusicbrackts.com&screenshot=true&embed=screenshot.url" loading="lazy" alt="Musicbrackts"/>
@@ -37,7 +37,7 @@ const Project = () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>2.</i>OneDayOnly Refined</h3>
+                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>2.</i>OneDayOnly Refined</h3>
                             <a className="project-content row" href="//odo-refined.herokuapp.com/" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=https%3A%2F%2Fodo-refined.herokuapp.com/&screenshot=true&embed=screenshot.url" loading="lazy" alt="OneDayOnly Refined"/>
@@ -47,17 +47,27 @@ const Project = () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>3.</i>Solar Power Technologies</h3>
-                            <a className="project-content row" href="//solarpowertech.myshopify.com/" target="_h">
+                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>3.</i>Pandelani Psychotherapy</h3>
+                            <a className="project-content row" href="//www.pandelani.co.za/" target="_h">
                                 <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=http%3A%2F%2Fsolarpowertech.myshopify.com&screenshot=true&embed=screenshot.url" loading="lazy" alt="Solar Power Technologies"/>
+                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fwww.pandelani.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Pandelani Psychotherapy"/>
                                 </figure>
                                 <div className="project-info col-md-5">
                                 </div>
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>4.</i>Vhukhudo</h3>
+                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>4.</i>Solar Power Technologies</h3>
+                            <a className="project-content row" href="//solarpowertech.myshopify.com/" target="_h">
+                                <figure className="project-screenshot col-md-7">
+                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fsolarpowertech.myshopify.com&screenshot=true&embed=screenshot.url" loading="lazy" alt="Solar Power Technologies"/>
+                                </figure>
+                                <div className="project-info col-md-5">
+                                </div>
+                            </a>
+                        </div>
+                        <div className="project">
+                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>5.</i>Vhukhudo</h3>
                             <a className="project-content row" href="//vhukhudo.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=http%3A%2F%2Fvhukhudo.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Vhukhudo"/>
@@ -67,7 +77,7 @@ const Project = () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>5.</i>t-Drive</h3>
+                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>6.</i>t-Drive</h3>
                             <a className="project-content row" href="//t-drive.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=http%3A%2F%2Ft-drive.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="t-Drive"/>
@@ -77,7 +87,7 @@ const Project = () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>6.</i>CreditWorth</h3>
+                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>7.</i>CreditWorth</h3>
                             <a className="project-content row" href="//creditworth.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=https%3A%2F%2Fcreditworth.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Zuki"/>
@@ -87,7 +97,7 @@ const Project = () => {
                             </a>
                         </div>
                         <div className="project">
-                            <h3 className="project-name" onClick={handleProjectClick}><i>7.</i>B.I.G Finance</h3>
+                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>8.</i>B.I.G Finance</h3>
                             <a className="project-content row" href="//bigfinance.co.za" target="_h">
                                 <figure className="project-screenshot col-md-7">
                                     <img src="https://api.microlink.io?url=http%3A%2F%2Fbigfinance.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="B.I.G Finance"/>
