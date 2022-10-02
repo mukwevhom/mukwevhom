@@ -2,7 +2,7 @@ import React from "react";
 import { useStaticQuery,graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 
-export default (props) => {
+const HeaderManager = (props) => {
     const { site } = useStaticQuery(graphql`
         query SiteMetadataQuery {
             site {
@@ -35,3 +35,5 @@ export default (props) => {
         </Helmet>
     )
 }
+
+export default HeaderManager;

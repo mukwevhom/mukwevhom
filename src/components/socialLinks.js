@@ -1,7 +1,7 @@
 import React from "react";
 import feather from '../utils/feather';
 
-export default () => {
+const SocialLinks = () => {
     const measureArray = ['21', '21'];
     
     return (
@@ -13,3 +13,5 @@ export default () => {
         </ul>
     )
 };
+
+export default SocialLinks
