@@ -1,7 +1,43 @@
 import React from "react";
 import $ from 'jquery';
+import feather from '../utils/feather';
 
 const Project = () => {
+    const PROJECTS = [
+        {
+            name: "Musicbrackts",
+            url: "https://musicbrackts.com"
+        },
+        {
+            name: "OneDayOnly Refined",
+            url: "https://odo-refined.herokuapp.com"
+        },
+        {
+            name: "Pandelani Psychotherapy",
+            url: "https://pandelani.co.za"
+        },
+        {
+            name: "Solar Power Technologies",
+            url: "https://solarpowertech.myshopify.com"
+        },
+        {
+            name: "Vhukhudo",
+            url: "https://vhukhudo.co.za"
+        },
+        {
+            name: "t-Drive",
+            url: "https://t-drive.co.za"
+        },
+        {
+            name: "CreditWorth",
+            url: "https://creditworth.co.za"
+        },
+        {
+            name: "B.I.G Finance",
+            url: "https://bigfinance.co.za"
+        }
+    ]
+
     function handleProjectClick(e) {
         let currProject = e.currentTarget;
 
@@ -26,86 +62,21 @@ const Project = () => {
                 </div>
                 <div className="section-content mt-5">
                     <div className="projects-wrapper">
-                        <div className="project">
-                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>1.</i>Musicbrackts</h3>
-                            <a className="project-content row" href="//musicbrackts.com" target="_h">
-                                <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fmusicbrackts.com&screenshot=true&embed=screenshot.url" loading="lazy" alt="Musicbrackts"/>
-                                </figure>
-                                <div className="project-info col-md-5">
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project">
-                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>2.</i>OneDayOnly Refined</h3>
-                            <a className="project-content row" href="//odo-refined.herokuapp.com/" target="_h">
-                                <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fodo-refined.herokuapp.com/&screenshot=true&embed=screenshot.url" loading="lazy" alt="OneDayOnly Refined"/>
-                                </figure>
-                                <div className="project-info col-md-5">
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project">
-                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>3.</i>Pandelani Psychotherapy</h3>
-                            <a className="project-content row" href="//www.pandelani.co.za/" target="_h">
-                                <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fwww.pandelani.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Pandelani Psychotherapy"/>
-                                </figure>
-                                <div className="project-info col-md-5">
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project">
-                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>4.</i>Solar Power Technologies</h3>
-                            <a className="project-content row" href="//solarpowertech.myshopify.com/" target="_h">
-                                <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fsolarpowertech.myshopify.com&screenshot=true&embed=screenshot.url" loading="lazy" alt="Solar Power Technologies"/>
-                                </figure>
-                                <div className="project-info col-md-5">
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project">
-                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>5.</i>Vhukhudo</h3>
-                            <a className="project-content row" href="//vhukhudo.co.za" target="_h">
-                                <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=http%3A%2F%2Fvhukhudo.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Vhukhudo"/>
-                                </figure>
-                                <div className="project-info col-md-5">
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project">
-                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>6.</i>t-Drive</h3>
-                            <a className="project-content row" href="//t-drive.co.za" target="_h">
-                                <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=http%3A%2F%2Ft-drive.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="t-Drive"/>
-                                </figure>
-                                <div className="project-info col-md-5">
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project">
-                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>7.</i>CreditWorth</h3>
-                            <a className="project-content row" href="//creditworth.co.za" target="_h">
-                                <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=https%3A%2F%2Fcreditworth.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="Zuki"/>
-                                </figure>
-                                <div className="project-info col-md-5">
-                                </div>
-                            </a>
-                        </div>
-                        <div className="project">
-                            <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}><i>8.</i>B.I.G Finance</h3>
-                            <a className="project-content row" href="//bigfinance.co.za" target="_h">
-                                <figure className="project-screenshot col-md-7">
-                                    <img src="https://api.microlink.io?url=http%3A%2F%2Fbigfinance.co.za&screenshot=true&embed=screenshot.url" loading="lazy" alt="B.I.G Finance"/>
-                                </figure>
-                                <div className="project-info col-md-5">
-                                </div>
-                            </a>
-                        </div>
+                        { PROJECTS.map((project, idx) => (
+                            <div className="project">
+                                <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}>
+                                    <i>{idx+1}.</i>{project.name}
+                                    <a href={project.url} target="_h" className="d-inline-block">{feather("external-link", [21, 21])}</a>
+                                </h3>
+                                <a className="project-content row" href={project.url} target="_h">
+                                    <figure className="project-screenshot col-md-7">
+                                        <img src={`https://api.microlink.io?url=${project.url}&screenshot=true&embed=screenshot.url`} loading="lazy" alt={project.name}/>
+                                    </figure>
+                                    <div className="project-info col-md-5">
+                                    </div>
+                                </a>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </div>
