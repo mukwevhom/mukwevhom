@@ -1,4 +1,4 @@
-# Ndaa, I am [Murendeni Mukwevho](https://murendeni.dev)
+# Ndaa, I am [Murendeni Mukwevho](https://mukwevhom.xyz)
 
 I build websites and web applications. I'm currently breaking the bias at [GirlCode](https://girlcode.co.za)
 
@@ -17,4 +17,4 @@ JS, React, VueJS, CSS, Styled Components, Python
 - [LinkedIn](https://www.linkedin.com/in/mukwevhom/)
 - [Twitter](https://twitter.com/IAmMurendeni)
 - [GitHub](https://github.com/mukwevhom)
-- [Personal Website](https://murendeni.dev)
+- [Personal Website](https://mukwevhom.xyz)
