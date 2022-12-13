@@ -10,7 +10,7 @@ const Project = () => {
         },
         {
             name: "OneDayOnly Refined",
-            url: "https://odo-refined.herokuapp.com"
+            url: "https://odo-refined.onrender.com"
         },
         {
             name: "Pandelani Psychotherapy",
