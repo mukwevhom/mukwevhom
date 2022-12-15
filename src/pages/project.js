@@ -18,7 +18,7 @@ const Project = () => {
         },
         {
             name: "Lwendo",
-            url: "https://lwendo.com"
+            url: "https://www.lwendo.com"
         },
         {
             name: "Solar Power Technologies",
@@ -76,8 +76,6 @@ const Project = () => {
                                     <figure className="project-screenshot col-md-7">
                                         <img src={`https://api.microlink.io?url=${project.url}&screenshot=true&embed=screenshot.url`} loading="lazy" alt={project.name}/>
                                     </figure>
-                                    <div className="project-info col-md-5">
-                                    </div>
                                 </a>
                             </div>
                         ))}
