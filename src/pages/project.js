@@ -4,10 +4,10 @@ import feather from '../utils/feather';
 
 const Project = () => {
     const PROJECTS = [
-        {
-            name: "Musicbrackts",
-            url: "https://musicbrackts.com"
-        },
+        // {
+        //     name: "Musicbrackts",
+        //     url: "https://musicbrackts.com"
+        // },
         {
             name: "OneDayOnly Refined",
             url: "https://odo-refined.onrender.com"
