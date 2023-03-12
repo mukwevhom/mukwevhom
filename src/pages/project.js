@@ -21,6 +21,10 @@ const Project = () => {
             url: "https://www.lwendo.com"
         },
         {
+            name: "Sibol Finance",
+            url: "https://sibolfinance.co.za"
+        },
+        {
             name: "Solar Power Technologies",
             url: "https://solarpowertech.myshopify.com"
         },
