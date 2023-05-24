@@ -29,14 +29,6 @@ const Project = () => {
             url: "https://solarpowertech.myshopify.com"
         },
         {
-            name: "Vhukhudo",
-            url: "https://vhukhudo.co.za"
-        },
-        {
-            name: "t-Drive",
-            url: "https://t-drive.co.za"
-        },
-        {
             name: "CreditWorth",
             url: "https://creditworth.co.za"
         },
