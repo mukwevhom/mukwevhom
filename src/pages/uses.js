@@ -34,7 +34,7 @@ const Uses = () => {
                         <ul className="category-uses mt-3">
                             <li>VS Code<span>editor</span></li>
                             <li>Google Chrome<span>browser</span></li>
-                            <li>Trello<span>task management</span></li>
+                            <li>Notion<span>task management</span></li>
                             <li>Terminal<span>terminal</span></li>
                             <li>Insomnia<span>api</span></li>
                         </ul>
@@ -43,7 +43,7 @@ const Uses = () => {
                         <h4 className="category-title">Extras</h4>
                         <ul className="category-uses mt-3">
                             <li>Youtube Music<span>music</span></li>
-                            <li>DSTV &amp; Showmax<span>tv shows</span></li>
+                            <li>DSTV, Plex &amp; Showmax<span>tv shows</span></li>
                             <li>Google Keeps<span>notes</span></li>
                             <li>Google Podcast<span>podcast</span></li>
                         </ul>
