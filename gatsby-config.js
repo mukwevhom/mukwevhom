@@ -14,13 +14,11 @@ module.exports = {
     },
     plugins: [
         {
-            resolve: `gatsby-plugin-gtag`,
+            resolve: `gatsby-plugin-google-gtag`,
             options: {
-                trackingId: "UA-92610979-1",
-                // Puts tracking script in the head instead of the body
-                head: false,
-                // enable ip anonymization
-                anonymize: true,
+                trackingIds: [
+                    "GTM-5C9R6CZ"
+                ],
             },
         },
         `gatsby-plugin-sass`,
