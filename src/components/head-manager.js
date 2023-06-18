@@ -31,7 +31,6 @@ const HeaderManager = (props) => {
             <meta name="p=domain_verify" content="69ec3689df39c65b2c238394e38470d8" />
             <title>{site.siteMetadata.title}</title>
             <link rel="canonical" href="https://mukwevhom.xyz" />
-            <script src="https://unpkg.com/feather-icons"></script>
         </Helmet>
     )
 }
