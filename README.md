@@ -1,6 +1,6 @@
 # Ndaa, I am [Murendeni Mukwevho](https://mukwevhom.xyz)
 
-I build websites and web applications. I'm currently breaking the bias at [GirlCode](https://girlcode.co.za)
+I build websites and web applications.
 
 ## Languages/Tools
 JS, React, VueJS, CSS, Styled Components, Python
