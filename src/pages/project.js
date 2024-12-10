@@ -13,16 +13,8 @@ const Project = () => {
             url: "https://odo-refined.onrender.com"
         },
         {
-            name: "Pandelani Psychotherapy",
-            url: "https://pandelani.co.za"
-        },
-        {
             name: "Lwendo",
             url: "https://www.lwendo.com"
-        },
-        {
-            name: "Sibol Finance",
-            url: "https://sibolfinance.co.za"
         },
         {
             name: "Solar Power Technologies",
