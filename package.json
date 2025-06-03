@@ -13,7 +13,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
-    "bootstrap": "^5.3.5",
+    "bootstrap": "^5.3.6",
     "feather-icons": "^4.29.2",
     "gatsby": "^5.14.3",
     "gatsby-plugin-google-gtag": "^5.14.0",
@@ -24,7 +24,7 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "sass": "^1.86.3"
+    "sass": "^1.89.1"
   },
   "devDependencies": {
     "prettier": "^3.5.3"
