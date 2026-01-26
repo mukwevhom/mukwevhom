@@ -1,5 +1,4 @@
 import React from "react";
-import $ from 'jquery';
 import feather from '../utils/feather';
 
 const Project = () => {
@@ -30,20 +29,30 @@ const Project = () => {
         }
     ]
 
+    const getSibling = (el, siblingSelector) => {
+        if(el == null) return null;
+
+        let parent = el.parentElement;
+        let sibling = parent.querySelector(siblingSelector);
+
+        return sibling;
+    }
+
     function handleProjectClick(e) {
         let currProject = e.currentTarget;
+        let currProjectContent = getSibling(currProject, ".project-content");
 
-        let currProjectContent = $(currProject).siblings(".project-content");
-
-        if(currProjectContent.hasClass("show")){
-            currProjectContent.removeClass("show");
+        if(currProjectContent.classList.contains("show")){
+            currProjectContent.classList.remove("show");
             
             return;
         }
 
-        $(".project-content").removeClass("show");
+        document.querySelectorAll(".project-content").forEach(el => {
+            el.classList.remove("show");
+        })
         
-        currProjectContent.addClass("show");
+        currProjectContent.classList.add("show");
     }
     return (
         <section className="section-wrapper w-100 h-100 py-5" id="projects">
@@ -56,7 +65,7 @@ const Project = () => {
                     <div className="projects-wrapper">
                         { PROJECTS.map((project, idx) => (
                             <div className="project">
-                                <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e)}>
+                                <h3 className="project-name" onClick={(e) => handleProjectClick(e)} onKeyDown={(e) => handleProjectClick(e, idx)}>
                                     <i>{idx+1}.</i>{project.name}
                                     <a href={project.url} target="_h" className="d-inline-block">{feather("external-link", [21, 21])}</a>
                                 </h3>

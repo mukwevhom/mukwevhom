@@ -1,5 +1,4 @@
 import React from "react";
-import $ from 'jquery';
 import HeadManager from "../components/head-manager";
 import SocialLinks from "../components/socialLinks";
 import Project from './project';
@@ -10,9 +9,9 @@ const Index = () => {
     function handleViewProjectClick(e) {
         e.preventDefault();
 
-        $(".main-wrapper").scrollTop($("#projects").offset().top);
-
+        document.querySelector(".main-wrapper").scrollTop = document.querySelector("#projects").offsetTop;
     }
+
     return (
         <div className="main-wrapper w-100 h-100">
             <HeadManager location="/" />
