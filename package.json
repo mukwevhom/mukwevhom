@@ -20,14 +20,14 @@
     "gatsby-plugin-robots-txt": "^1.8.0",
     "gatsby-plugin-sass": "^6.16.0",
     "gatsby-plugin-sitemap": "^6.16.0",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "react-helmet": "^6.1.0",
     "sass": "^1.99.0"
   },
   "devDependencies": {
-    "baseline-browser-mapping": "^2.10.17",
-    "prettier": "^3.8.2"
+    "baseline-browser-mapping": "^2.10.29",
+    "prettier": "^3.8.3"
   },
   "overrides": {
     "qs": "^6.14.1"
