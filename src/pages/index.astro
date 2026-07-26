@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro"
+import SocialLinks from "../components/SocialLinks.astro"
+import Project from "../components/Project.astro"
+
+import "../styles/global.scss"
+---
+
+<Layout>
+  <div class="main-wrapper w-100 h-100">
+    <section class="section-wrapper w-100 h-100" id="intro-section">
+      <div class="site-header container col-lg-4 col-12 text-center">
+        <h1 class="m-0 black-text">
+          Ndaa!!! <span role="img" aria-label="waving emoji">👋</span>
+        </h1>
+        <p class="m-0 my-5">
+          I'm Murendeni Mukwevho. I build websites and web applications.
+        </p>
+        <SocialLinks />
+      </div>
+      <a href="#projects" class="btn border rounded mt-5">View Select Projects</a>
+    </section>
+    <Project />
+  </div>
+</Layout>

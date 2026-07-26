@@ -1,11 +1,10 @@
-/* eslint-disable */
-import React from "react";
-import feather from "feather-icons";
+// Build-time helper to render a feather-icons SVG as a raw string.
+// Use with `set:html` in .astro templates, e.g. <Fragment set:html={feather('github', [21, 21])} />
+import feather from "feather-icons"
 
 export default (name, measureArray) => {
-    const featherString = feather.icons[name].toSvg({
+    return feather.icons[name].toSvg({
         width: measureArray[0],
         height: measureArray[1],
-    });
-    return <div dangerouslySetInnerHTML={{ __html: featherString }} />
+    })
 }
