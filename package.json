@@ -5,28 +5,21 @@
   "version": "1.4.0",
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "build": "astro build",
+    "develop": "astro dev",
+    "format": "prettier --write \"**/*.{js,jsx,json,md,astro}\"",
     "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+    "serve": "astro preview",
+    "test": "echo \"Write tests!\""
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "astro": "^7.1.3",
     "bootstrap": "^5.3.8",
     "feather-icons": "^4.29.2",
-    "gatsby": "^5.16.1",
-    "gatsby-plugin-google-gtag": "^5.16.0",
-    "gatsby-plugin-robots-txt": "^1.8.0",
-    "gatsby-plugin-sass": "^6.16.0",
-    "gatsby-plugin-sitemap": "^6.16.0",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "react-helmet": "^6.1.0",
     "sass": "^1.102.0"
   },
   "devDependencies": {
-    "baseline-browser-mapping": "^2.11.3",
     "prettier": "^3.9.6"
   },
   "overrides": {

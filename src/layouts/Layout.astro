@@ -1,0 +1,52 @@
+---
+import "bootstrap/dist/css/bootstrap.min.css"
+import "../styles/normalise.css"
+import { siteMetadata, gtagId } from "../site.config"
+
+interface Props {
+  title?: string
+}
+
+const { title = siteMetadata.title } = Astro.props
+const canonicalURL = new URL(Astro.url.pathname, siteMetadata.siteUrl)
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content={siteMetadata.author} />
+    <meta name="description" content="Developer based in South Africa" />
+    <meta
+      name="google-site-verification"
+      content="ojFr1wa1XQWEoRJft3h_XuYa6mGRSi1n6hML9up4xuc"
+    />
+    <meta
+      name="keywords"
+      content="Mukwevho Murendeni, Mukwevho, Murendeni, Fileboxer, Music Brackts, Web Developer, Inbound, MukwevhoM, iammurendeni"
+    />
+    <meta name="p:domain_verify" content="69ec3689df39c65b2c238394e38470d8" />
+    <title>{title}</title>
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Google gtag -->
+    <script
+      is:inline
+      async
+      src={`https://www.googletagmanager.com/gtag/js?id=${gtagId}`}
+    ></script>
+    <script is:inline define:vars={{ gtagId }}>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+      gtag("config", gtagId)
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

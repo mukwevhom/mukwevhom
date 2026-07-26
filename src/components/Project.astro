@@ -1,0 +1,104 @@
+---
+import feather from "../utils/feather"
+
+const PROJECTS = [
+  // {
+  //     name: "Musicbrackts",
+  //     url: "https://musicbrackts.com"
+  // },
+  {
+    name: "OneDayOnly Refined",
+    url: "https://odo-refined.onrender.com",
+  },
+  {
+    name: "Lwendo",
+    url: "https://www.lwendo.com",
+  },
+  {
+    name: "Solar Power Technologies",
+    url: "https://solarpowertech.myshopify.com",
+  },
+  {
+    name: "CreditWorth",
+    url: "https://creditworth.co.za",
+  },
+  {
+    name: "B.I.G Finance",
+    url: "https://bigfinance.co.za",
+  },
+]
+---
+
+<section class="section-wrapper w-100 h-100 py-5" id="projects">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2>Projects</h2>
+      <p>I've built many websites. Here are few of them.</p>
+    </div>
+    <div class="section-content mt-5">
+      <div class="projects-wrapper">
+        {
+          PROJECTS.map((project, idx) => (
+            <div class="project">
+              <h3 class="project-name" tabindex="0">
+                <i>{idx + 1}.</i>
+                {project.name}
+                <a
+                  href={project.url}
+                  target="_h"
+                  class="d-inline-block"
+                  set:html={feather("external-link", [21, 21])}
+                />
+              </h3>
+              <a class="project-content row" href={project.url} target="_h">
+                <figure class="project-screenshot col-md-7">
+                  <img
+                    src={`https://api.microlink.io?url=${project.url}&screenshot=true&embed=screenshot.url`}
+                    loading="lazy"
+                    alt={project.name}
+                  />
+                </figure>
+              </a>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function getSibling(el: Element | null, siblingSelector: string) {
+    if (el == null) return null
+
+    const parent = el.parentElement
+    return parent ? parent.querySelector(siblingSelector) : null
+  }
+
+  function handleProjectClick(e: Event) {
+    const currProject = e.currentTarget as HTMLElement
+    const currProjectContent = getSibling(currProject, ".project-content")
+
+    if (!currProjectContent) return
+
+    if (currProjectContent.classList.contains("show")) {
+      currProjectContent.classList.remove("show")
+      return
+    }
+
+    document.querySelectorAll(".project-content").forEach((el) => {
+      el.classList.remove("show")
+    })
+
+    currProjectContent.classList.add("show")
+  }
+
+  document.querySelectorAll(".project-name").forEach((el) => {
+    el.addEventListener("click", handleProjectClick)
+    el.addEventListener("keydown", (e) => {
+      if ((e as KeyboardEvent).key === "Enter" || (e as KeyboardEvent).key === " ") {
+        handleProjectClick(e)
+      }
+    })
+  })
+</script>
