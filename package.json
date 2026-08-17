@@ -2,7 +2,7 @@
   "name": "mukwevhom",
   "private": true,
   "description": "My portfolio website",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "license": "MIT",
   "scripts": {
     "build": "astro build",
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
-    "astro": "^7.1.3",
+    "astro": "^7.2.2",
     "bootstrap": "^5.3.8",
     "feather-icons": "^4.29.2",
     "sass": "^1.102.0"
