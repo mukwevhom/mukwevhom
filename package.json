@@ -13,11 +13,11 @@
     "test": "echo \"Write tests!\""
   },
   "dependencies": {
-    "@astrojs/sitemap": "^3.7.3",
-    "astro": "^7.2.2",
+    "@astrojs/sitemap": "^3.7.4",
+    "astro": "^7.3.2",
     "bootstrap": "^5.3.8",
     "feather-icons": "^4.29.2",
-    "sass": "^1.102.0"
+    "sass": "^1.104.0"
   },
   "devDependencies": {
     "prettier": "^3.9.6"
