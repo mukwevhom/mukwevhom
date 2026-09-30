@@ -9,7 +9,7 @@
     "develop": "astro dev",
     "format": "prettier --write \"**/*.{js,jsx,json,md,astro}\"",
     "start": "npm run develop",
-    "serve": "astro preview",
+    "serve": "astro preview --port 3000 --host 0.0.0.0",
     "test": "echo \"Write tests!\""
   },
   "dependencies": {
